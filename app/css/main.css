@@ -29,7 +29,7 @@
     display: block;
     width: 50px;
     height: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     background: 50%/100% url(/images/ic_fingerprint.svg);
 }
 
@@ -39,10 +39,6 @@
     margin-right: 30px;
 }
 
-a {
-    font-style: none;
-}
-
 .mdc-toolbar {
     background-color: #000000;
 }
@@ -50,4 +46,15 @@ a {
 .ctitle {
     margin-left: 20px;
     font-weight: 400;
+}
+
+#imageAA {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+    display: block;
+}
+
+.about {
+    margin-bottom: 15px;
 }
