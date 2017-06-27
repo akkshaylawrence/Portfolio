@@ -1,56 +1,136 @@
 <!DOCTYPE html>
-<html class="mdc-typography">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Portfilio</title>
-    <link rel="stylesheet" href="/css/material-components-web.min.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500">
-
+    <title>Akkshay Lawrence</title>
+    <link rel="icon" href="images/favicon.png" sizes="192x192" type="image/png">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="Description" content="The oficial website of Akkshay Lawrence">
+    <meta name="theme-color" content="#000000">
+    <meta name="msapplication-navbutton-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
-<body class="mdc-portfolio">
-    <header class="mdc-toolbar mdc-elevation--z4">
-        <div class="mdc-toolbar__row">
-            <section class="mdc-toolbar__section mdc-toolbar__section--align-start mdc-toolbar__section--shrink-to-fit">
-                <a class="mdc-toolbar__title-link">
-                    <h1 class="mdc-toolbar__title"> AKKSHAY LAWRENCE </h1>
-                </a>
-            </section>
-            <section class="mdc-toolbar__section  mdc-toolbar__section--align-end">
-                <nav class="toolbar-nav">
-                    <a href="https://github.com/akkshay7" class="toolbar-nav-link toolbar-nav-link--github">
-                        <svg class="toolbar-nav-link__icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"> 
-                            <g clip-rule="evenodd"><path fill-rule="evenodd" fill="#fff" d="M12 2.25c-5.52 0-10 4.48-10 10 0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.82.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03.8-.22 1.65-.33 2.5-.34.85 0 1.7.11 2.5.34 1.91-1.29 2.75-1.03 2.75-1.03.55 1.38.2 2.39.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.93.36.31.68.92.68 1.85 0 1.34-.01 2.42-.01 2.74 0 .27.18.58.69.48a9.997 9.997 0 0 0 6.83-9.49C22 6.72 17.52 2.25 12 2.25z"></path></g>
-                        </svg>
-                    </a>
-                </nav>
-            </section>
-        </div>
-    </header>
-    <div class="page__content page__flex-element">
-        <div class="mdc-layout-grid">
-            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6 mdc-layout-grid__cell--span-8-tablet">
-                <h1 class="mdc-typography--display3 about">About me</h1>
-                <p class="mdc-typography--adjust-margin">- <b>Engineer</b> by profession, Web Designer and Musician by soul.<br/>- Loves listening to <b>Music</b> and <b>Typography</b>.<br/>- <b>Front-End Developer</b> and <b>UX/UI</b> designer.<br/>- Hails from <b>Kochi</b><br/>- Degree from <b>Rajagiri School of Engineering and technology.</b></p>
+<body data-spy="scroll" data-target=".navbar">
+    <div class="navbar-fixed scrollspy" id="#contact">
+        <nav class="black" role="navigation">
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="index.html"><img class="brand-logo" src="images/navlogo.png" alt=""></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tour.html">Tour</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
-            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6 mdc-layout-grid__cell--span-8-tablet">
-                <img id="imageAA" src="/images/AA.png" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-8" />
+        </nav>
+    </div>
+    <ul id="nav-mobile" class="side-nav">
+        <li>
+            <div class="userView">
+                <div class="background">
+                    <img src="images/office.jpg" />
+                </div>
+                <a href="#!user"><img class="square" src="images/navlogo.png"></a>
             </div>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tour.html">Tour</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div id="index-banner" class="parallax-container index">
+        <div class="parallax hide-on-large-only">
+            <!--Attach image for mobile and tablet.-->
+            <img src="images/background2.jpg" alt="Unsplashed background" />
         </div>
-        <div class="mdc-layout-grid">
-            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6 mdc-layout-grid__cell--span-8-tablet">
-
+        <div class="section">
+            <div id="tagline" class="container">
+                <div class="row center">
+                    <h5 class="header col s12">The Syro-Malabar Eparchy<br/>of St.Thomas of Australia presents</h5>
+                    <h1 class="header col s12">Tour of Australia 2017</h1>
+                    <h4 class="header col s12">8th - 20th November 2017</h4>
+                </div>
             </div>
         </div>
     </div>
+    <div class="container scrollspy">
+        <div class="row">
+            <div class="col s3 m3 l3">
+                <img src="images/logo.png" alt="Rexband full logo" class="responsive-img">
+            </div>
+            <div class="col s12 m9 l9">
+                <h4>About Us</h4>
+                <p class="left-align light">The Rexband is the musical wing of Jesus Youth, a missionary movement at the service of the church.Besides
+                    the 3-hour stage shows, the band also considers its retreats for musicians, music skill development programmes
+                    for budding talents and life encounter programmes as vital elements of its call. Rexband strongly believes
+                    that music becomes relevant only when its quality and message brings about a genuine change of heart.
+                    The typical 3-hour Rexband show is an extravaganza integrating music, choreography and contemporary theatre
+                    performances by Living Vision, a premier Christian theatre initiative. It works in tandem with the band
+                    to present the message of Jesus in a powerful and attractive way.
+                </p>
+            </div>
+        </div>
+        <div id="contact" class="row">
+            <div class="col s12 l6 hide-on-med-and-down">
+
+            </div>
+            <div id="contactus" class="col s12 m12 l6">
+                <h4>Contact Me</h4>
+                <div class="row contact">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="first_name" type="text" />
+                                <label for="first_name">First Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="last_name" type="text" />
+                                <label for="last_name">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate" />
+                                <label for="email" data-error="Not a valid email ID">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <button id="submit" type="button" class="btn btn-flat waves-effect waves-green right" onclick="saveContact()">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer black">
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l6 m6">© 2014-2017 <a class="brown-text text-lighten-3" href="http://rexband.org">Akkshay Lawrence</a>, All rights reserved.</div>
+                    <div class="col s12 l6 m6 right-align hide-on-med-and-down">Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="mailto:cruzer6ryc4@gmail.com?subject=Website%20Enquiry&amp;body=Your%20enquiry%20Here">Akkshay Lawrence</a></div>
+                </div>
+                <div class="row hide-on-large-only">
+                    <div class="col s12 left-align">Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="mailto:cruzer6ryc4@gmail.com?subject=Website%20Enquiry&amp;body=Your%20enquiry%20Here">Akkshay Lawrence</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
-<!--
-<script src="/js/material-components-web.min.js"></script>
-<script>
-    window.mdc.autoInit();
-</script>-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+<script src="js/fbinit.js"></script>
+<script src="js/init.js"></script>
+<script src="js/form.js"></script>
+<script src="https://use.fontawesome.com/03a4b7b82e.js"></script>
 
 </html>
