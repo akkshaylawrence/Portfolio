@@ -1,9 +1,3 @@
-.brand-logo {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    height: 30px;
-    width: auto;
-}
 body {
     display: flex;
     min-height: 100vh;
@@ -12,12 +6,8 @@ body {
 p {
     line-height: 2rem;
 }
-.button-collapse {
-    color: white;
-    margin-left: 0px;
-}
-.parallax-container.index {
-    min-height: 400px;
+.parallax-container {
+    min-height: 380px;
     line-height: 0;
     height: auto;
     color: rgba(255, 255, 255, .9);
@@ -33,12 +23,6 @@ p {
     #index-banner .section {
         top: 10%;
     }
-    .parallax-container.index {
-        min-height: 665px;
-        line-height: 0;
-        height: auto;
-        color: rgba(255, 255, 255, .9);
-    }
     .col.s3.m3.l3>.responsive-img {
         padding-top: 70px !important;
     }
@@ -50,12 +34,6 @@ p {
     #index-banner .section {
         top: 0;
     }
-    .parallax-container.index {
-        min-height: 665px;
-        line-height: 0;
-        height: auto;
-        color: rgba(255, 255, 255, .9);
-    }
     .col.s3.m3.l3>.responsive-img {
         padding-top: 70px !important;
     }
@@ -66,7 +44,7 @@ p {
 #tagline {
     margin-top: 50px;
 }
-#tagline>.row.center>.header.col.s12{
+#tagline>.row.left.left-align>.header.col.s12 {
     margin-top: 5px;
     padding-right: 0px;
 }
@@ -76,13 +54,6 @@ p {
 footer.page-footer {
     margin: 0;
 }
-.horizontal {
-    margin-top: 14px;
-}
-tr {
-    margin-top: 10px;
-    padding: 0px;
-}
 .header {
     padding-left: 0px !important;
     margin-bottom: 0px !important;
@@ -90,14 +61,8 @@ tr {
 #contactus>.row.contact>.col.s12>.row {
     margin-bottom: 3px !important;
 }
-.container>.section>.row {
-    margin-bottom: 0px;
-}
 .row.contact {
     margin-bottom: 0px;
-}
-.modal-content>.row.contact>.col.s12>.row {
-    margin-bottom: 2px;
 }
 .modal-content>h4,
 p {
@@ -111,25 +76,4 @@ p {
 }
 .container.scrollspy>.row {
     margin-bottom: 30px;
-}
-.col.s12>.card-panel.hoverable>span>h3 {
-    margin-bottom: 5px;
-}
-.newcon {
-    max-width: 150px;
-    height: auto;
-    border: 2px solid white;
-}
-#indfull {
-    width: 100%;
-    height: auto;
-}
-.square {
-    width: 100%;
-    max-width: 100px;
-    height: auto;
-}
-#index-banner>.parallax.hide-on-large-only{
-    height: 100% !important;
-    width: auto !important;
 }
