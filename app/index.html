@@ -13,29 +13,27 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
     <div class="navbar-fixed">
         <nav class="black" role="navigation">
             <div class="nav-wrapper container">
-                <a id="logo-container" href="#" class="brand-logo">Akkshay Lawrence</a>
+                <a id="logo-container" href="#" class="brand-logo"><img class="brand-logo" src="images/icon.png" alt=""></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#about">About</a></li>
                     <li><a href="#social">Social</a></li>
                     <li><a href="#work">Works</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
             </div>
         </nav>
     </div>
     <ul id="nav-mobile" class="side-nav">
         <li>
             <div class="userView">
-                <div class="background">
-                    <img src="images/office.jpg" />
-                </div>
                 <a href="#!user"><img class="circle" src="images/AA.png"></a>
             </div>
         </li>
@@ -64,7 +62,7 @@
             </div>
             <div class="col s12 m9 l9">
                 <h4>About Me</h4>
-                <p class="left-align light">The Rexband is the musical wing of Jesus Youth, a missionary movement at the service of the church.Besides
+                <p class="left-align">The Rexband is the musical wing of Jesus Youth, a missionary movement at the service of the church.Besides
                     the 3-hour stage shows, the band also considers its retreats for musicians, music skill development programmes
                     for budding talents and life encounter programmes as vital elements of its call. Rexband strongly believes
                     that music becomes relevant only when its quality and message brings about a genuine change of heart.
@@ -74,9 +72,12 @@
                 </p>
             </div>
         </div>
+        <div class="divider"></div>
         <div id="contact" class="row">
             <div class="col s12 l6 hide-on-med-and-down">
-
+                <p class="right-align flow-text">
+                    Want to get in touch with me?<br/>Be it to request more info about myself or my experience, to ask for my resume tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice coffee here in Kochi... just feel free to drop me a line anytime.<br/>I promise to reply A.S.A.P.
+                </p>
             </div>
             <div id="contactus" class="col s12 m12 l6">
                 <h4>Contact Me</h4>
@@ -84,20 +85,26 @@
                     <form class="col s12">
                         <div class="row">
                             <div class="input-field col s12">
-                                <input id="first_name" type="text" />
-                                <label for="first_name">First Name</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <input id="last_name" type="text" />
-                                <label for="last_name">Last Name</label>
+                                <input id="Name" type="text" />
+                                <label for="Name">Name</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
                                 <input id="email" type="email" class="validate" />
                                 <label for="email" data-error="Not a valid email ID">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="phone" type="text" />
+                                <label for="phone">Phone</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="message" class="materialize-textarea"></textarea>
+                                <label for="message">Textarea</label>
                             </div>
                         </div>
                         <div class="row">
@@ -125,11 +132,7 @@
 </body>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/materialize.min.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
-<script src="js/fbinit.js"></script>
 <script src="js/init.js"></script>
-<script src="js/form.js"></script>
 <script src="https://use.fontawesome.com/03a4b7b82e.js"></script>
 
 </html>
