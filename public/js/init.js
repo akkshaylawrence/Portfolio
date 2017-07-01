@@ -19,3 +19,5 @@
         });
     });
 })(jQuery);
+var contactform =  document.getElementById('contactme');
+contactform.setAttribute('action', '//formspree.io/' + 'cruzer6ryc4' + '@' + 'gmail' + '.' + 'com');

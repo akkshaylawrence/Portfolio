@@ -106,32 +106,34 @@
                     <b>A.S.A.P.<b>
                 </p>
             </div>
-            <div id="contactus" class="col s12 m12 l6">
+            <div id="contactme" class="col s12 m12 l6">
                 <h4>Contact Me</h4>
                 <div class="row contact">
-                    <form class="col s12" method="POST" action="http://formspree.io/cruzer6ryc4@gmail.com">
+                    <form class="col s12" method="POST">
                         <div class="row">
+                            <input type="hidden" name="_subject" value="Website contact" />
                             <div class="input-field col s12">
-                                <input id="Name" type="text" />
+                                <input id="Name" name="Name" type="text" />
                                 <label for="Name">Name</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <input id="email" type="email" class="validate" />
+                                <input id="email" name="_replyto" type="email" class="validate" />
                                 <label for="email" data-error="Not a valid email ID">Email</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <input id="phone" type="text" />
+                                <input id="phone" name="Phone" type="text" />
                                 <label for="phone">Phone</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <textarea id="message" class="materialize-textarea"></textarea>
-                                <label for="message">Textarea</label>
+                                <textarea id="message" name="Message" class="materialize-textarea"></textarea>
+                                <label for="message">Anything you want to say.</label>
+                                <input type="text" name="_gotcha" style="display:none" />
                             </div>
                         </div>
                         <div class="row">
