@@ -13,7 +13,7 @@ function saveContact() {
             });
             submit.classList.add("disabled");
             submit.innerHTML = "Submitted";
-            Materialize.toast('I\'ll will get back to you soon!', 4000);
+            Materialize.toast('I\'ll get back to you soon!', 4000);
         }
     });
 }
