@@ -111,33 +111,31 @@
                 <div class="row contact">
                     <form class="col s12" method="POST">
                         <div class="row">
-                            <input type="hidden" name="_subject" value="Website contact" />
                             <div class="input-field col s12">
-                                <input id="Name" name="Name" type="text" />
+                                <input id="name" name="Name" type="text" />
                                 <label for="Name">Name</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <input id="email" name="_replyto" type="email" class="validate" />
-                                <label for="email" data-error="Not a valid email ID">Email</label>
+                                <input id="email" name="Email" type="email" class="validate" />
+                                <label for="Email" data-error="Not a valid email ID">Email</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
                                 <input id="phone" name="Phone" type="text" />
-                                <label for="phone">Phone</label>
+                                <label for="Phone">Phone</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <textarea id="message" name="Message" class="materialize-textarea"></textarea>
-                                <label for="message">Anything you want to say.</label>
-                                <input type="text" name="_gotcha" style="display:none" />
+                                <textarea id="textarea" name="Message" class="materialize-textarea"></textarea>
+                                <label for="Message">Anything you want to say</label>
                             </div>
                         </div>
                         <div class="row">
-                            <a type="submit" class="btn btn-flat waves-effect waves-green right">Submit</a>
+                            <a id="submit" onclick="saveContact()" class="btn btn-flat waves-effect waves-green right">Submit</a>
                         </div>
                     </form>
                 </div>
@@ -168,5 +166,10 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/materialize.min.js"></script>
 <script src="js/init.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase-database.js"></script>
+<script src="js/fbinit.js"></script>
+<script src="js/form.js"></script>
 <script src="https://use.fontawesome.com/03a4b7b82e.js"></script>
 </html>
